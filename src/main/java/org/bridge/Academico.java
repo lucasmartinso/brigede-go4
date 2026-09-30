@@ -6,6 +6,6 @@ public class Academico extends Cargo {
     }
 
     public float calcularSalario() {
-        return this.salarioBase * (1 + this.especialização.percentualAumento());
+        return 0;
     }
 }

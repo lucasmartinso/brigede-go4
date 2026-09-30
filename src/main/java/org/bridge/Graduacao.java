@@ -1,5 +1,5 @@
 package org.bridge;
 
-public class Graduacao implements Especialização {
+public class Graduacao implements Especializacao {
     public float percentualAumento() { return 0.4f; }
 }

@@ -1,5 +1,5 @@
 package org.bridge;
 
-public interface Especialização {
+public interface Especializacao {
     float percentualAumento();
 }

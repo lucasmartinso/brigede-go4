@@ -1,7 +1,7 @@
 package org.bridge;
 
 public abstract class Cargo {
-    protected Especialização especialização;
+    protected Especializacao especializacao;
 
     protected float salarioBase;
 
@@ -9,8 +9,8 @@ public abstract class Cargo {
         this.salarioBase = salarioBase;
     }
 
-    public void setEspecialização(Especialização especialização) {
-        this.especialização = especialização;
+    public void setEspecializacao(Especializacao especializacao) {
+        this.especializacao = especializacao;
     }
 
     public void  setSalarioBase(float salarioBase) {
